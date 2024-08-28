@@ -1,3 +1,7 @@
+/* Goodle fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Oswald:wght@200..700&display=swap');
+
+
 /* Asterisk wildcard selector to override styles added by the browser */
 * {
     padding: 0;
@@ -19,4 +23,29 @@ main {
 footer {
     background-color: orange;
 }
+
+
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  /* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 200 to 700 */
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
